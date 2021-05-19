@@ -1,5 +1,6 @@
 import { ExperienceBar } from "../components/ExperienceBar";
 import Head from 'next/head'
+import { Profile } from "../components/Profile";
 
 export default function Home() {
   return (
@@ -8,6 +9,15 @@ export default function Home() {
       
       
     <ExperienceBar/>
+
+    <section>
+      <div>
+        <div>
+          <Profile/>
+        </div>
+
+      </div>
+    </section>
   </div>
   )
 }
