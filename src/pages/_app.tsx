@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
 
   <ChallengesProvider>
   
-  <Component {...pageProps} />
+    <Component {...pageProps} />
 
   </ChallengesProvider>
   
